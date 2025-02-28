@@ -1,3 +1,3 @@
 FROM httpd:latest
 COPY . /usr/local/apache2/htdocs
-EXPORT 80
+EXPOSE 80
